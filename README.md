@@ -1,1 +1,1 @@
-# buzzerproo.github.com
+# buzzerproo.github.io
