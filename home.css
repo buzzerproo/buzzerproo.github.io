@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: times, ;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Text Alignment */
+.center {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem 2rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Content Section */
+.content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h3 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.content p {
+    line-height: 1.6;
+    margin: 0rem 9;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 0rem 0rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+/* Reset umum */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Footer container */
+.footer {
+    background-color: ; /* Warna latar belakang footer */
+    padding: 20px 0; /* Jarak atas dan bawah */
+    text-align: center;
+    color: white;
+}
+.action-btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  background: #567bfb;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  margin: 20px 0;
+  transition: transform 0.3s;
+}
+
+/* List dalam footer */
+.footer ul {
+    list-style: none; /* Hilangkan bullet point */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Gunakan flexbox untuk menyusun elemen */
+    justify-content: center; /* Posisi di tengah secara horizontal */
+    gap: 60px; /* Jarak antar item */
+}
+
+/* List item */
+.footer ul li {
+    text-align: center;
+}
+
+/* Gaya untuk gambar */
+.footer ul li img {
+    width: 40px; /* Ukuran ikon */
+    height: 40px;
+    margin-bottom: 5px; /* Jarak antara ikon dan teks */
+    transition: transform 0.3s; /* Efek animasi pada hover */
+}
+
+/* Hover pada ikon */
+.footer ul li img:hover {
+    transform: scale(1.2); /* Perbesar ikon saat hover */
+}
+
+/* Teks media sosial */
+.footer ul li p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.footer ul li a {
+    text-decoration: none; /* Hilangkan garis bawah pada link */
+    color: white; /* Warna teks */
+}
+
+.footer ul li a:hover {
+    text-decoration: underline; /* Tambahkan garis bawah pada hover */
+}
