@@ -104,7 +104,7 @@ body {
     margin: 0;
     display: flex; /* Gunakan flexbox untuk menyusun elemen */
     justify-content: center; /* Posisi di tengah secara horizontal */
-    gap: 60px; /* Jarak antar item */
+    gap: 20px; /* Jarak antar item */
 }
 
 /* List item */
